@@ -9,21 +9,30 @@ body {
 
 h1{
     font-size: 56px;
-    text-shadow: 1px 1px 2px rgb(174, 185, 210);
+    text-shadow: 1px 1px 2px rgb(203, 212, 233);
 }
 
 h2{
     font-size: 44px;
-    text-shadow: 1px 1px 2px rgb(174, 185, 210);
+    text-shadow: 1px 1px 2px rgb(203, 212, 233);
 }
 
 h3{
+    font-size: 36px;
+    text-shadow: 1px 1px 1px rgb(203, 212, 233);
+}
+
+h4{
     font-size: 22px;
-    text-shadow: 1px 1px 1px rgb(174, 185, 210);
+    text-shadow: 1px 1px 1px rgb(192, 195, 224);
+}
+
+ul{
+    list-style-position: inside;
 }
 
 .container{
-    background-color: rgb(174, 187, 218);
+    background-color: rgb(138, 150, 178);
 }
 
 .topnav {
