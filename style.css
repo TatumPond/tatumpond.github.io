@@ -31,6 +31,11 @@ ul{
     list-style-position: inside;
 }
 
+#me:hover{
+    opacity: 75%;
+}
+
+
 .container{
     background-color: rgb(138, 150, 178);
 }
