@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); /*Nunito*/
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');/*Maven Pro*/
 
-#Content h2, h3{
+body{
+    color: #e6f2fb;
+}
+#Content h2{
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -17,15 +20,10 @@
     font-family: "Maven Pro", sans-serif;
     font-style: normal;
     font-weight: 400;
-    padding: 20px;
-    margin: 20px;
     color: black;
 }
 
 #Content h2 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 38px;
     padding: 20px;
     margin: 20px;
@@ -33,9 +31,6 @@
 }
 
 #Content h3 {
-    font-family: "Nunito", sans-serif;
-    font-weight: 600;
-    font-style: normal;
     font-size: 28px;
     padding: 20px;
     margin: 20px;
