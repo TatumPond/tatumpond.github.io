@@ -41,7 +41,7 @@
     font-style: normal;
     text-align: right;
     line-height: 2rem;
-    font-size: 1.5rem;
+    font-size: 12px;
     padding-right: 10px;
     color: black;
 }
@@ -52,7 +52,7 @@
     font-style: normal;
     text-align: left;
     line-height: 0.2rem;
-    font-size: 1.5rem;
+    font-size: 12px;
     padding: 10px;
     color: black;
 }
@@ -63,7 +63,7 @@
     font-style: normal;
     text-align: left;
     line-height: 0.2rem;
-    font-size: 1.2rem;
+    font-size: 9px;
     padding: 10px;
     color: black;
 }
@@ -72,7 +72,7 @@
     font-family: "Nunito", sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.5rem;
+    font-size: 12px;
     list-style-type: disc;
     list-style-position: outside;
     padding: revert;
@@ -90,5 +90,10 @@
     }
 
 span{
-    font-size: 1.05rem;
+    font-size: 10px;
+}
+
+p{
+    padding: 20px;
+    margin: 10px;
 }
