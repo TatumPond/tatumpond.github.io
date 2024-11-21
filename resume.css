@@ -1,0 +1,94 @@
+﻿
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap'); /*Indie Flower*/
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap'); /*Nunito*/
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');/*Maven Pro*/
+
+#Content h2, h3{
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    float: left;
+}
+
+#Content h1{
+
+    font-family: "Maven Pro", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    margin: 1rem;
+    color: black;
+}
+
+#Content h2 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 38px;
+    color: black;
+}
+
+#Content h3 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    color: black;
+}
+
+.contact {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    padding-right: 10px;
+    color: black;
+}
+
+.content {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 0.2rem;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: black;
+}
+
+.footnotes {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: left;
+    line-height: 0.2rem;
+    font-size: 1.2rem;
+    padding: 10px;
+    color: black;
+}
+
+.list ul {
+    font-family: "Nunito", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+    list-style-type: disc;
+    list-style-position: outside;
+    padding: revert;
+    text-align: left;
+    line-height: 1.6rem;
+}
+
+.list li {
+    padding-left: 10px;
+}
+
+    .list li a {
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+span{
+    font-size: 1.05rem;
+}
