@@ -8,7 +8,6 @@ body {
     font-family: 'Cambria';
     font-size: 16px;
     color: rgb(27, 28, 39);
-    text-align: center;
     background-color: rgb(63, 80, 112)
 }
 
@@ -95,11 +94,6 @@ body {
 
 span{
     font-size: 10px;
-}
-
-p{
-    padding: 20px;
-    margin: 20px;
 }
 
 .container{
