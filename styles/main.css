@@ -35,6 +35,7 @@ body{
     background-color: var(--complimentary);
     color: var(--primary);
     text-align: center;
+    font-size: 2rem;
 }
 
 #nav ul {
@@ -51,7 +52,7 @@ body{
         padding: inherit;
         margin: inherit;
         text-decoration: none;
-        color: var(--complimentary);
+        color: var(--primary);
     }
 
         #nav li a:hover {
