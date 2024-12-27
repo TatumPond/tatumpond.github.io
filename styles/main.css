@@ -31,9 +31,11 @@ body{
 }
 
 #nav{
+    display: block;
     background-color: var(--complimentary);
     color: var(--primary);
     text-align: center;
+    border-radius: 50px;
 }
 
 nav ul {
