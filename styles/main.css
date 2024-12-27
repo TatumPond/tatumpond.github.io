@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+:root {
+    --primary: #F7F5F3; /*primary: light gray*/
+    --secondary: #414E70; /*secondary: dark blue*/
+    --tertiary: #73828C; /*tertiary: ashy blue*/
+    --complimentary: #DB9FB9; /*complimentary: pink*/
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "Quicksand", sans-serif; 
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+body{
+    line-height: 1.2rem;
+}
