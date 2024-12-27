@@ -35,27 +35,26 @@ body{
     background-color: var(--complimentary);
     color: var(--primary);
     text-align: center;
-    text-decoration: none;
 }
 
-nav ul {
+#nav ul {
     list-style-type: none;
     border-radius: 100px;
     padding: 16px 16px;
 }
 
-nav li {
+#nav li {
     display: inline;
 }
 
-    nav li a {
+    #nav li a {
         padding: inherit;
         margin: inherit;
         text-decoration: none;
         color: var(--complimentary);
     }
 
-        nav li a:hover {
+        #nav li a:hover {
             background-color: var(--primary);
             color: var(--secondary);
             transition: 0.3s;
