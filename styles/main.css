@@ -19,13 +19,20 @@ body{
 }
 
 #header{
-    background-color: var(--secondary);
+    background-color: var(--tertiary);
     font-family: "Quicksand", sans-serif;
-    color: var(--primary);
+    color: var(--secondary);
     padding: 1rem;
     text-align: center;
 }
 
 #header h1{
     font-size: 4rem;
+}
+
+#nav{
+    background-color: var(--complimentary);
+    color: var(--primary);
+    padding: 1rem;
+    text-align: center;
 }
