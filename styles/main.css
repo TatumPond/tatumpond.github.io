@@ -33,6 +33,29 @@ body{
 #nav{
     background-color: var(--complimentary);
     color: var(--primary);
-    padding: 1rem;
     text-align: center;
 }
+
+nav ul {
+    list-style-type: none;
+    border-radius: 100px;
+    padding: 16px 16px;
+}
+
+nav li {
+    display: inline;
+}
+
+    nav li a {
+        padding: inherit;
+        margin: inherit;
+        text-decoration: none;
+        color: var(--complimentary);
+    }
+
+        nav li a:hover {
+            background-color: var(--primary);
+            color: var(--secondary);
+            transition: 0.3s;
+            overflow: hidden;
+        }
