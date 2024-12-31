@@ -41,14 +41,14 @@ body{
     background-color: var(--complimentary);
     color: var(--primary);
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 2rem;
 }
 
 #nav ul {
     list-style-type: none;
     border-radius: 100px;
-    padding: 32px 32px;
+    padding: 24px 24px;
 }
 
 #nav li {
