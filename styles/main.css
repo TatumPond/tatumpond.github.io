@@ -48,7 +48,7 @@ body{
 #nav ul {
     list-style-type: none;
     border-radius: 100px;
-    padding: 20px 20px;
+    padding: 20px 6px;
 }
 
 #nav li {
@@ -62,7 +62,7 @@ body{
         text-decoration: none;
         color: var(--primary);
         transition: background-color 0.6s, color 0.6s;
-        border-radius: 30%;
+        border-radius: 30px;
     }
 
         #nav li a:hover {
