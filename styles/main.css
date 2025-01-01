@@ -5,7 +5,8 @@
     --primary: #F7F5F3; /*primary: light gray*/
     --secondary: #11296f; /*secondary: dark blue*/
     --tertiary: #6397c0; /*tertiary: ashy blue*/
-    --complimentary: #dbc1e5; /*complimentary: lilac*/
+    --complimentary: #c9e0f4; /*complimentary: light light blue*/
+    --accent: #cf8db4; /*accent: light pink*/
 }
 
 html{
