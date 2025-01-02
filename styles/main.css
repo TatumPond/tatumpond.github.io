@@ -39,7 +39,7 @@ body{
 
 #nav{
     display: block;
-    font-family: "Forum", serif;
+    font-family: var(--font-primary);
     font-style: normal; 
     background-color: var(--complimentary);
     color: var(--primary);
