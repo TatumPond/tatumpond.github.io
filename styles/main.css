@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /*Quicksand import*/
 @import url('https://fonts.googleapis.com/css2?family=Forum&family=Maven+Pro:wght@400..900&display=swap'); /*Forum import*/
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); /*Kodchasan import*/
 
 :root {
     --primary: #F7F5F3; /*primary: light gray*/
@@ -7,11 +8,12 @@
     --tertiary: #6397c0; /*tertiary: ashy blue*/
     --complimentary: #9cbdd8; /*complimentary: light blue*/
     --accent: #cf8db4; /*accent: light pink*/
+    --font-primary: "Kodchasan", serif;
 }
 
 html{
     font-size: 62.5%;
-    font-family: "Forum", serif;
+    font-family: var(--font-primary);
     font-style: normal; 
     background-color: var(--primary);
     color: var(--secondary);
@@ -24,7 +26,7 @@ body{
 
 #header{
     background-color: var(--tertiary);
-    font-family: "Forum", serif;
+    font-family: var(--font-primary);
     font-style: normal; 
     color: var(--secondary);
     padding: 1rem;
