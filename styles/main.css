@@ -8,7 +8,7 @@
     --tertiary: #6397c0; /*tertiary: ashy blue*/
     --complimentary: #9cbdd8; /*complimentary: light blue*/
     --accent: #cf8db4; /*accent: light pink*/
-    --font-primary: "Kodchasan", serif, font-weight: 300; /*font-family: Kodchasan*/
+    --font-primary: "Kodchasan", serif; font-weight: 300; /*font-family: Kodchasan*/
 }
 
 html{
