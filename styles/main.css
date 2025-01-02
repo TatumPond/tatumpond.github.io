@@ -27,6 +27,22 @@ body{
     background-color: var(--primary);
 }
 
+h1{
+    font-family: var(--font-primary);
+    font-style: normal; 
+    color: var(--secondary);
+    font-size: 3.2rem;
+    padding: 2rem;
+}
+
+h2{
+    font-family: var(--font-primary);
+    font-style: normal; 
+    color: var(--secondary);
+    font-size: 2.4rem;
+    padding: 2rem;
+}
+
 #nav{
     display: block;
     font-family: var(--font-primary);
