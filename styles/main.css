@@ -67,7 +67,7 @@ body{
     }
 
         #nav li a:hover {
-            background-color: var(--primary);
-            color: var(--secondary);
+            background-color: var(--complimentary);
+            color: var(--tertiary);
             overflow: hidden;
         }
