@@ -92,3 +92,11 @@ h2{
     padding: 2rem;
     border-radius: 20px;
 }
+
+p{
+    font-family: var(--font-primary);
+    font-style: normal; 
+    color: var(--secondary);
+    font-size: 1.6rem;
+    padding: 2rem;
+}
