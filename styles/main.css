@@ -103,7 +103,7 @@ p{
     color: var(--tertiary);
     font-size: 1.6rem;
     line-height: normal;
-    padding: 2rem;
+    padding: 1 rem;
 }
 
 .profile-picture {
