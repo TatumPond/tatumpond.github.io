@@ -40,7 +40,8 @@ h2{
     font-style: normal; 
     color: var(--secondary);
     font-size: 2.4rem;
-    margin: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 #nav{
