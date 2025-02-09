@@ -146,7 +146,25 @@ p {
 .thumbnails{
     max-width: 80%;
     height: auto;
+ 
+    transition: filter 0.3s ease;
+}
+
+.thumbnail-link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.thumbnail-wrapper {
+    position: relative;
+    overflow: hidden;
     border-radius: 20px;
-    display: block;
-    margin: 0 auto;
+}
+
+.thumbnail-wrapper:hover .thumbnails {
+    filter: blur(4px);
+}
+
+.thumbnail-wrapper:hover .caption{
+    opacity: 1;
 }
