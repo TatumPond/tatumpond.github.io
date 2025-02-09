@@ -30,7 +30,7 @@ html {
 }
 
 body {
-    line-height: 2.4rem;
+    line-height: 1.6rem;
     background-color: var(--primary);
 }
 
@@ -131,7 +131,7 @@ p {
     font-style: normal;
     color: var(--tertiary);
     font-size: 1.6rem;
-    line-height: normal;
+    line-height: 2.4rem;
     padding: 1 rem;
 }
 
