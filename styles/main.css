@@ -27,12 +27,11 @@ html {
     font-style: normal;
     background-color: var(--primary);
     color: var(--secondary);
-    line-height: 1.6rem;
 
 }
 
 body {
-    line-height: 1.2rem;
+    line-height: 1.8rem;
     padding-left: 2rem;
     padding-right: 2rem;
     background-color: var(--primary);
