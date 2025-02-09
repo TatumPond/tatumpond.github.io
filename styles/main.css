@@ -86,8 +86,7 @@ h2{
         }
 
 #content{
-    margin-left: 2rem;
-    margin-right: 2rem;
+    padding: 4rem;
 }
 
 #content a{
@@ -122,8 +121,6 @@ p{
     max-width: 100%;
     height: auto;
     border-radius: 20px; 
-    padding-top: 2rem; 
-    padding-bottom: 2rem;
     display: block; 
     margin: 0 auto; 
 }
