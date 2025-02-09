@@ -178,6 +178,6 @@ p {
     filter: blur(4px);
 }
 
-.thumbnail-wrapper:hover .caption{
+.thumbnail-wrapper:hover .thumbnail-caption{
     opacity: 1;
 }
