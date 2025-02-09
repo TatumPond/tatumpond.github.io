@@ -142,3 +142,11 @@ p {
     display: block;
     margin: 0 auto;
 }
+
+.thumbnails{
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
