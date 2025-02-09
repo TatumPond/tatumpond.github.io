@@ -1,53 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap'); /*Quicksand import*/
-@import url('https://fonts.googleapis.com/css2?family=Forum&family=Maven+Pro:wght@400..900&display=swap'); /*Forum import*/
-@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap'); /*Kodchasan import*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+/*Quicksand import*/
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Maven+Pro:wght@400..900&display=swap');
+/*Forum import*/
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+/*Kodchasan import*/
 
 :root {
-    --primary: #F7F5F3; /*primary: light gray*/
-    --secondary: #071A54; /*secondary: dark blue*/
-    --tertiary: #6397c0; /*tertiary: ashy blue*/
-    --complimentary: #9cbdd8; /*complimentary: light blue*/
-    --accent: #cf8db4; /*accent: light pink*/
-    --font-primary: "Kodchasan", serif; font-weight: 100; /*font-family: Kodchasan*/
+    --primary: #F7F5F3;
+    /*primary: light gray*/
+    --secondary: #071A54;
+    /*secondary: dark blue*/
+    --tertiary: #6397c0;
+    /*tertiary: ashy blue*/
+    --complimentary: #9cbdd8;
+    /*complimentary: light blue*/
+    --accent: #cf8db4;
+    /*accent: light pink*/
+    --font-primary: "Kodchasan", serif;
+    font-weight: 100;
+    /*font-family: Kodchasan*/
 }
 
-html{
+html {
     font-size: 62.5%;
     font-family: var(--font-primary);
-    font-style: normal; 
+    font-style: normal;
     background-color: var(--primary);
     color: var(--secondary);
 
 }
 
-body{
+body {
     line-height: 1.2rem;
     padding-left: 2rem;
     padding-right: 2rem;
     background-color: var(--primary);
 }
 
-h1{
+h1 {
     font-family: var(--font-primary);
-    font-style: normal; 
+    font-style: normal;
     color: var(--secondary);
     font-size: 3.2rem;
     padding: 2rem;
 }
 
-h2{
+h2 {
     font-family: var(--font-primary);
-    font-style: normal; 
+    font-style: normal;
     color: var(--secondary);
     font-size: 2.4rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
 
-#nav{
+#nav {
     display: block;
     font-family: var(--font-primary);
-    font-style: normal; 
+    font-style: normal;
     background-color: var(--complimentary);
     color: var(--primary);
     text-align: center;
@@ -56,7 +66,7 @@ h2{
     border-radius: 20px;
 }
 
-.tagline{
+.tagline {
     font-size: 1.8rem;
 }
 
@@ -85,22 +95,22 @@ h2{
             overflow: hidden;
         }
 
-#content{
+#content {
     padding: 4rem;
 }
 
-#content a{
-    list-style-type: none;
-    text-decoration: none;
-    color: var(--secondary);
-    transition: background-color 0.6s, color 0.8s;
-}
+    #content a {
+        list-style-type: none;
+        text-decoration: none;
+        color: var(--secondary);
+        transition: background-color 0.6s, color 0.8s;
+    }
 
-#content a:hover{
-    color: var(--complimentary);
-}
+        #content a:hover {
+            color: var(--complimentary);
+        }
 
-#footer{
+#footer {
     display: block;
     background-color: var(--tertiary);
     color: var(--primary);
@@ -108,9 +118,9 @@ h2{
     border-radius: 20px;
 }
 
-p{
+p {
     font-family: var(--font-primary);
-    font-style: normal; 
+    font-style: normal;
     color: var(--tertiary);
     font-size: 1.6rem;
     line-height: normal;
@@ -120,7 +130,7 @@ p{
 .profile-picture {
     max-width: 100%;
     height: auto;
-    border-radius: 20px; 
-    display: block; 
-    margin: 0 auto; 
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
 }
