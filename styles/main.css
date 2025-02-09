@@ -114,6 +114,8 @@ p{
 }
 
 .profile-picture {
+    max-width: 50%;
+    height: auto;
     border-radius: 30px; 
     padding-top: 2rem; 
     padding-bottom: 2rem;
