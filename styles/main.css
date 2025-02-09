@@ -163,6 +163,17 @@ p {
     border-radius: 20px;
 }
 
+.caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--secondary);
+    font-size: 3rem;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
 .thumbnail-wrapper:hover .thumbnails {
     filter: blur(4px);
 }
