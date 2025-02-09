@@ -115,7 +115,7 @@ h2 {
     display: block;
     background-color: var(--tertiary);
     color: var(--primary);
-    padding: 2rem;
+    padding: 8rem;
     border-radius: 20px;
 }
 
