@@ -96,6 +96,10 @@ h2{
     color: var(--secondary);
 }
 
+#content a:hover{
+    color: var(--complimentary);
+}
+
 #footer{
     display: block;
     background-color: var(--tertiary);
@@ -116,7 +120,7 @@ p{
 .profile-picture {
     max-width: 50%;
     height: auto;
-    border-radius: 30px; 
+    border-radius: 20px; 
     padding-top: 2rem; 
     padding-bottom: 2rem;
     display: block; 
