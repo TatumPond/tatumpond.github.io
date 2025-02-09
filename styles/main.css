@@ -92,7 +92,8 @@ h2{
 
 #content a{
     list-style-type: none;
-    color: var(--tertiary);
+    text-decoration: none;
+    color: var(--secondary);
 }
 
 #footer{
