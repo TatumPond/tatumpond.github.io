@@ -88,7 +88,11 @@ h2{
 #content{
     margin-left: 2rem;
     margin-right: 2rem;
+}
+
+#content a{
     list-style-type: none;
+    color: var(--tertiary);
 }
 
 #footer{
