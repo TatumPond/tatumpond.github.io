@@ -163,6 +163,7 @@ p {
 }
 
 .thumbnail-caption{
+    font-family: var(--font-primary);
     position: absolute;
     top: 50%;
     left: 50%;
