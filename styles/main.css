@@ -202,9 +202,10 @@ p {
     background-color: var(--primary);
     margin: 15% auto;
     padding: 20px;
-    border: 1px solid var(--secondary);
+    border: 3px solid var(--secondary);
     width: 80%;
     border-radius: 10px;
+    text-align: center;
 }
 
 .close {
