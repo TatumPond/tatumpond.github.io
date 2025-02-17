@@ -60,6 +60,15 @@ h2 {
     margin-bottom: 2rem;
 }
 
+h3 {
+    font-family: var(--font-primary);
+    font-style: normal;
+    color: var(--secondary);
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
 #nav {
     display: block;
     font-family: var(--font-primary);
