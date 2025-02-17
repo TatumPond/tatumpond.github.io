@@ -31,12 +31,33 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
-    <div id="content">
-
+    <div id="content" class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="#" class="thumbnail-link" onclick="openPopup(event)">
+                        <div class="thumbnail-wrapper">
+                            <p><img src="assets/" alt="FishAndGameThumbnail" class="thumbnails"></p>
+                            <div class="thumbnail-caption">Fish and Game</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="footer">
 
     </div>
+
+    <div id="projectPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <h2>Fish and Game</h2>
+            <p></p>
+        </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+    
 </body>
 
 </html>
