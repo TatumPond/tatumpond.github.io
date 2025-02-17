@@ -229,3 +229,11 @@ p {
     text-decoration: none;
     cursor: pointer;
 }
+
+.project-image {
+    max-width: 80%;
+    height: auto;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
