@@ -186,11 +186,11 @@ p {
     transition: opacity 0.5s ease 0s, transform 0.5s ease 0s;
 }
 
-.thumbnail-wrapper:hover .thumbnails {
+.thumbnail-wrapper:hover .thumbnails, .thumbnail-wrapper:hover .project-image{
     filter: blur(5px);
 }
 
-.thumbnail-wrapper:hover .thumbnail-caption{
+.thumbnail-wrapper:hover .thumbnail-caption, .thumbnail-wrapper:hover .project-image{
     opacity: 1;
     transform: translate(-50%, -50%);
 }
