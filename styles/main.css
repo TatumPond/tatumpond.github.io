@@ -172,11 +172,6 @@ p {
     border-radius: 20px;
 }
 
-.project-image-wrapper {
-    position: relative;
-    border-radius: 20px;
-}
-
 .thumbnail-caption{
     font-family: var(--font-primary);
     position: absolute;
@@ -240,4 +235,5 @@ p {
     height: auto;
     display: block;
     margin: 0 auto;
+    border-radius: 20px;
 }
