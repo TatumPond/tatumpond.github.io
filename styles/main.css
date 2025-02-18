@@ -172,6 +172,11 @@ p {
     border-radius: 20px;
 }
 
+.project-image-wrapper {
+    position: fixed;
+    border-radius: 20px;
+}
+
 .thumbnail-caption{
     font-family: var(--font-primary);
     position: absolute;
@@ -233,7 +238,6 @@ p {
 .project-image {
     max-width: 100%;
     height: auto;
-    border-radius: 20px;
     display: block;
     margin: 0 auto;
 }
