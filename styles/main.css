@@ -173,7 +173,7 @@ p {
 }
 
 .project-image-wrapper {
-    position: fixed;
+    position: absolute;
     border-radius: 20px;
 }
 
