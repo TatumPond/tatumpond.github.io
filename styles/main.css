@@ -76,7 +76,7 @@ a {
 }
 
     a:hover {
-        color: var(--complimentary);
+        color: var(--secondary);
     }
 
 #nav {
@@ -87,6 +87,7 @@ a {
     color: var(--primary);
     text-align: center;
     font-size: 2.4rem;
+    line-height: 3rem;
     padding: 2rem;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -129,12 +130,12 @@ a {
     #content a {
         list-style-type: none;
         text-decoration: none;
-        color: var(--secondary);
+        color: var(--accent);
         transition: background-color 0.4s, color 0.3s;
     }
 
         #content a:hover {
-            color: var(--complimentary);
+            color: var(--secondary);
         }
 
 #footer {
