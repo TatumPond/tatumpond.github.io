@@ -71,7 +71,7 @@ h3 {
 
 a {
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--accent);
     transition: background-color 0.4s, color 0.3s;
 }
 
@@ -130,12 +130,12 @@ a {
     #content a {
         list-style-type: none;
         text-decoration: none;
-        color: var(--accent);
+        color: var(--secondary);
         transition: background-color 0.4s, color 0.3s;
     }
 
         #content a:hover {
-            color: var(--secondary);
+            color: var(--complimentary);
         }
 
 #footer {
