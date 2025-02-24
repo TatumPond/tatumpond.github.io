@@ -145,7 +145,11 @@ a {
     padding: 8rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+}
+
+#footer p {
     font-size: 0.8rem;
+    color: var(--primary);
 }
 
 p {
