@@ -142,13 +142,13 @@ a {
     display: block;
     background-color: var(--tertiary);
     color: var(--primary);
-    padding: 8rem;
+    padding: 4rem;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
 #footer p {
-    font-size: 0.8rem;
+    font-size: 1rem;
     color: var(--primary);
 }
 
