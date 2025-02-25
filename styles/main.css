@@ -32,7 +32,7 @@ html {
 body {
     line-height: 1.6rem;
     background-color: var(--primary);
-    cursor: url('assets/CURSOR_DEFAULT.png'), auto;
+    cursor: url('../assets/CURSOR_DEFAULT.png'), auto;
 }
 
 html, body {
