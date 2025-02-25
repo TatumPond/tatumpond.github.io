@@ -27,7 +27,7 @@ html {
     font-style: normal;
     background-color: var(--primary);
     color: var(--secondary);
-    cursor: grab;
+    cursor: url('assets/CURSOR_DEFAULT.png'), auto;
 }
 
 body {
