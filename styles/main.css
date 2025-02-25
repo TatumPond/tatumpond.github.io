@@ -27,12 +27,12 @@ html {
     font-style: normal;
     background-color: var(--primary);
     color: var(--secondary);
-    cursor: url('assets/CURSOR_DEFAULT.png'), auto;
 }
 
 body {
     line-height: 1.6rem;
     background-color: var(--primary);
+    cursor: url('assets/CURSOR_DEFAULT.png'), auto;
 }
 
 html, body {
