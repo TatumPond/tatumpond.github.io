@@ -254,3 +254,8 @@ p {
     margin: 0 auto;
     border-radius: 20px;
 }
+
+.digital-art {
+    max-width: 100%;
+    height: auto;
+}
