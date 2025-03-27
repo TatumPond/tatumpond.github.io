@@ -126,6 +126,7 @@ a {
 #content {
     padding: 3rem;
     flex: 1;
+    text-align: center;
 }
 
     #content a {
