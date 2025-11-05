@@ -101,15 +101,18 @@ a {
 
 #nav ul {
     list-style-type: none;
-    padding: 18px 4px;
+    padding: 0.8rem 4px;
+    display: inline-block;
+    margin: 0;
 }
 
-#nav li {
-    display: inline;
-    padding: 16px;
+#nav ul li {
+    display: inline-block;
+    padding: 0 1.6rem;
+    position: relative;
 }
 
-    #nav li a {
+    #nav ul li > a {
         padding: inherit;
         margin: inherit;
         text-decoration: none;
@@ -118,11 +121,50 @@ a {
         border-radius: 30px;
     }
 
-        #nav li a:hover {
+        #nav ul li > a:hover {
             background-color: var(--complimentary);
             color: var(--tertiary);
             overflow: hidden;
         }
+
+#nav .work-dropdown{
+    display: block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-6px);
+    top: calc(100% + 0.4rem);
+    background: var(--primary);
+    min-width: 18rem;
+    border-radius: 10px;
+    padding: .3rem 0;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .6 ease, transform .6s ease;
+    z-index: 999;
+}
+
+#nav .work-dropdown li{
+    display: block;
+    width: 100%;
+}
+
+#nav .work-dropdown a{
+    display: block;
+    padding: .75rem 1.1rem;
+    color: var(--secondary);
+    white-space: nowrap;
+}
+
+#nav .work-dropdown a:hover{
+    background: var(--complimentary);
+    color: var(--secondary);
+}
+
+#nav ul li:hover > .work-dropdown, #nav ul li:hover > .work-dropdown {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateX(-50%) translateY(0);
+}   
 
 #content {
     padding: 3rem;
