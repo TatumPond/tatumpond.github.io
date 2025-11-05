@@ -134,7 +134,7 @@ a {
     left: 50%;
     transform: translateX(-50%) translateY(-6px);
     top: calc(100% + 0.4rem);
-    background: var(--primary);
+    background: var(--complimentary);
     min-width: 18rem;
     border-radius: 10px;
     padding: .3rem 0;
