@@ -127,7 +127,7 @@ a {
             overflow: hidden;
         }
 
-#nav .work-dropdown{
+#nav .work-dropdown-menu{
     display: block;
     position: absolute;
     left: 50%;
@@ -143,24 +143,24 @@ a {
     z-index: 1000;
 }
 
-#nav .work-dropdown li{
+#nav .work-dropdown-menu li{
     display: block;
     width: 100%;
 }
 
-#nav .work-dropdown a{
+#nav .work-dropdown-menu a{
     display: block;
     padding: .75rem 1.1rem;
     color: var(--secondary);
     white-space: nowrap;
 }
 
-#nav .work-dropdown a:hover{
+#nav .work-dropdown-menu a:hover{
     background: var(--complimentary);
     color: var(--secondary);
 }
 
-#nav ul li:hover > .work-dropdown, #nav ul li:hover > .work-dropdown {
+#nav ul li:hover > .work-dropdown-menu, #nav ul li:hover > .work-dropdown-menu {
     opacity: 1;
     pointer-events: auto;
     transform: translateX(-50%) translateY(0);
