@@ -16,6 +16,8 @@
     /*complimentary: light blue*/
     --accent: #d1b1c4;
     /*accent: light pink*/
+    --accent-light: #f6e8ed;
+    /*accent-light: very light pink*/
     --font-primary: "Kodchasan", serif;
     font-weight: 100;
     /*font-family: Kodchasan*/
@@ -134,7 +136,7 @@ a {
     left: 50%;
     transform: translateX(-50%) translateY(-6px);
     top: calc(100% + 0.4rem);
-    background: var(--accent);
+    background: var(--accent-light);
     border-color: var(--secondary);
     border-width: 1px;
     border-style: solid;
