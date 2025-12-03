@@ -210,7 +210,8 @@ p {
     color: var(--tertiary);
     font-size: 1.8rem;
     line-height: 2.4rem;
-    padding: 1 rem;
+    padding: 1rem;
+    margin: 0 0 1rem 0;
 }
 
 .profile-picture {
@@ -222,9 +223,10 @@ p {
 }
 
 .thumbnails{
-    max-width: 75%;
+    max-width: 100%;
+    width: 100%;
     height: auto;
-    border-radius: 20px;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
     transition: filter 0.5s ease;
@@ -238,6 +240,18 @@ p {
 .thumbnail-wrapper {
     position: relative;
     border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 2.4rem;
+    display: flex;
+    /*align-items: center;
+    justify-content: center;*/
+}
+
+.thumbnail-wrapper p{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
 }
 
 .thumbnail-caption{
