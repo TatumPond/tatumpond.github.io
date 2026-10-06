@@ -12,7 +12,7 @@
     <script src="https://kit.fontawesome.com/d30c1066cb.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/x-icon" href="assets/logo.png">
     <link rel="stylesheet" href="styles/main.css" class="style">
-    <title>Tatum Pond - Digital Art</title>
+    <title>Tatum Pond - Illustrations</title>
 </head>
 
 <body>
@@ -25,7 +25,7 @@
                 <ul class="work-dropdown-menu">
                     <li><a href="index.html">Projects</a></li>
                     <li><a href="graphicDesign.html">Graphic Design</a></li>
-                    <li><a href="digitalArt.html">Digital Art</a></li>
+                    <li><a href="digitalArt.html">Illustrations</a></li>
                 </ul>
             </li>
             <li><a href="about.html">About</a></li>
@@ -117,7 +117,33 @@
                     </div>
                 </a>
             </div>
-
+            <div class="row">
+            <div class="col-md-4">
+                <a href="#" class="thumbnail-link" onclick="openPopup(event, 'PortraitPopup')">
+                    <div class="thumbnail-wrapper">
+                        <p><img src="assets/digitalArt/SELF PORTRAIT.jpg" alt="PortraitThumbnail" class="thumbnails">
+                        </p>
+                        <div class="thumbnail-caption">"Self Portrait"</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="thumbnail-link" onclick="openPopup(event, 'VesselsPopup')">
+                    <div class="thumbnail-wrapper">
+                        <p><img src="assets/digitalArt/(18)Vessels.png" alt="VesselsThumbnail" class="thumbnails">
+                        </p>
+                        <div class="thumbnail-caption">"Vessels Still Life"</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="#" class="thumbnail-link" onclick="openPopup(event, 'GreyhoundPopup')">
+                    <div class="thumbnail-wrapper">
+                        <p><img src="assets/digitalArt/GREYHOUND.jpeg" alt="GreyhoundThumbnail" class="thumbnails"></p>
+                        <div class="thumbnail-caption">"Trailblazer"</div>
+                    </div>
+                </a>
+            </div>
         </div>
 
     </div>
@@ -255,6 +281,50 @@
             </p>
             <br>
             <p>Created with Clip Studio Paint EX</p>
+        </div>
+    </div>
+
+    <div id="PortraitPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('PortraitPopup')">&times;</span>
+            <h1>"Self Portrait"</h1>
+            <h3>Illustration</h3>
+            <p>
+            <div class="digital-art">
+                <img src="assets/digitalArt/SELF PORTRAIT.jpg" alt="Portrait" class="project-image">
+            </div>
+            </p>
+            <br>
+            <p>Created with Oil Pastel and Acrylic Marker</p>
+        </div>
+    </div>
+
+    <div id="VesselsPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('VesselsPopup')">&times;</span>
+            <h1>"Vessels Still Life"</h1>
+            <h3>Study</h3>
+            <p>
+            <div class="digital-art">
+                <img src="assets/digitalArt/(18)Vessels.png" alt="Vessels" class="project-image">
+            </div>
+            <br>
+            <p>Created with Clip Studio Paint EX</p>
+        </div>
+    </div>
+
+    <div id="GreyhoundPopup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup('GreyhoundPopup')">&times;</span>
+            <h1>"Trailblazer"</h1>
+            <h3>Illustration</h3>
+            <p>
+            <div class="digital-art">
+                <img src="assets/digitalArt/GREYHOUND.jpeg" alt="Greyhound" class="project-image">
+            </div>
+            </p>
+            <br>
+            <p>Created with Oil Pastel and Acrylic Marker</p>
         </div>
     </div>
 
